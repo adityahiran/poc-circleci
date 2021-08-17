@@ -13,6 +13,7 @@ jobs:
           if ["$TEST" = test]; then
             echo "test"
           fi
+      - run: sleep 300
 
 # Orchestrate or schedule a set of jobs
 workflows:
