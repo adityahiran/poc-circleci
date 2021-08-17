@@ -15,7 +15,6 @@ workflows:
     jobs:
       testing:
         steps:
-          - checkout
           - run:
               name: Running tests
               command: |
