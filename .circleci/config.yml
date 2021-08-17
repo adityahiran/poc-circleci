@@ -11,3 +11,13 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+  test:
+    jobs:
+      testing:
+        steps:
+          - checkout
+          - run:
+              name: Running tests
+              command: |
+                echo $TEST
+
