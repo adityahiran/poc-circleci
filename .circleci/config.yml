@@ -13,6 +13,7 @@ jobs:
       - run: |
           if [ "$TEST" = test ]; then
             echo "test"
+          fi
 
 # Orchestrate or schedule a set of jobs
 workflows:
