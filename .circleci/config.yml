@@ -15,8 +15,4 @@ workflows:
     jobs:
       testing:
         steps:
-          - run:
-              name: Running tests
-              command: |
-                echo $TEST
-
+          - checkout
