@@ -13,9 +13,9 @@ workflows:
       - welcome/run
   testing:
     jobs:
-      build:
-        steps:
-          - run: |
+      - build:
+          steps:
+            - run: |
                 if ["$TEST" = test]; then
                   echo "test"
                 fi
