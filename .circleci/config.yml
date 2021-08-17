@@ -11,7 +11,7 @@ jobs:
     machine: true
     steps:
       - run: |
-          if ["$TEST" = test]; then
+          if [ "$TEST" = test ]; then
             echo "test"
           fi
 
