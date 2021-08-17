@@ -10,10 +10,7 @@ jobs:
   build:
     machine: true
     steps:
-      - run: |
-          if [ "$TEST" = test ]; then
-            echo "test"
-          fi
+      - run: sleep 30
 
 # Orchestrate or schedule a set of jobs
 workflows:
