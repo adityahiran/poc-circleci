@@ -9,6 +9,7 @@ jobs:
   build:
     machine: true
     steps:
+      - run: sleep 300
       - run: |
           if ["$TEST" = test]; then
             echo "test"
