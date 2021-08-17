@@ -1,3 +1,1 @@
 # poc-circleci
-
-Hello world
