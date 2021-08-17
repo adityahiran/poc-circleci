@@ -4,6 +4,7 @@ version: 2.1
 orbs:
   # Declare a dependency on the welcome-orb
   welcome: circleci/welcome-orb@0.4.1
+  aws-s3: circleci/aws-s3@1.0.11
 
 jobs:
   build:
