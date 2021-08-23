@@ -11,6 +11,7 @@ jobs:
     machine: true
     steps:
       - run: sleep 30
+      - runs: sleep 1
 
 # Orchestrate or schedule a set of jobs
 workflows:
